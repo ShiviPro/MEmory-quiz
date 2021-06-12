@@ -7,5 +7,12 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Shivam Tewari",
-  "license": "ISC"
+  "license": "ISC",
+   "dependencies": {
+      "cfonts": "^2.9.2",
+      "chalk": "^4.1.1",
+      "cli-progress": "^3.9.0",
+      "gradient-string": "^1.2.0",
+      "readline-sync": "^1.4.10"
+  }
 }
