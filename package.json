@@ -1,0 +1,11 @@
+{
+  "name": "memory-quiz",
+  "version": "1.0.0",
+  "description": "A simple CLI based quiz game revolving around how much you know about the 'ME' i.e. the author",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shivam Tewari",
+  "license": "ISC"
+}
