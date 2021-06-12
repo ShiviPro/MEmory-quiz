@@ -237,13 +237,13 @@ function showScore(points) {
 // Used to check how much a player knows me
 function ratePlayerMemory(score) {
   if(score <= 4) {
-    console.log(myBlue.bold.italic("Hmmmm. Maybe you don't know me so well."));
+    console.log(myBlue.bold.italic("Hmmmm. Maybe you don't have a good MEmory."));
   }
   else if(score <= 8) {
-    console.log(myBlue.bold.italic("Hey "+userName+", you have an excellent memory"));
+    console.log(myBlue.bold.italic("Hey "+userName+", you have an excellent MEmory"));
   }
   else {
-    console.log(myBlue.bold.italic("OMG ! "+userName+", Are you a stalker ? Just kidding! But really, you have an outstanding memory."));
+    console.log(myBlue.bold.italic("OMG ! "+userName+", Are you a stalker ? Just kidding! But seriousy, you have an outstanding MEmory."));
   }
   addNewLine();
 }
