@@ -254,6 +254,7 @@ function showGameOver(points) {
   addNewLine();
   console.log(myYellowAndBlue.bold.underline("Game Over !"));
   addNewLine();
+  console.log(myBlue("Your final score is: "+points+" points."));
   ratePlayerMemory(points);
   console.log(myBlue("Thank You, for attending this quiz"));
   addNewLine();
